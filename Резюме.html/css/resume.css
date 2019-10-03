@@ -1,0 +1,680 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/ROBOTO/Roboto-Bold.ttf");
+    }
+}
+.header__top_img{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    height: 300px;
+    width: 250px;
+}
+.header__top_text_my_name{
+    position: absolute;
+    font-family: Roboto;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    left: 100px;
+    top: 95px;
+}
+.header__top_text_my_position{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 25px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    left: 100px;
+    top: 165px;
+}
+.nav__about_element1{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+.nav__about_number_phone{
+    position: absolute;
+    font-family: 'Roboto';
+    top: 216px;
+    left: 144px;
+}
+.nav__about_element2{
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    top: 216px;
+    left: 360px;
+}
+.nav_about_gmail{
+    font-family: 'Roboto';
+    position: absolute;
+    top: 216px;
+    left: 420px;
+}
+.nav__about_element3{
+    position: absolute;
+    left: 100px;
+    top: 265px;
+}
+.nav__about_location{
+    font-family: Roboto;
+    position: absolute;
+    top: 260px;
+    left: 144px;
+}
+.nav__Education_text1{
+    position: absolute;
+    font-family: Roboto;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    left: 100px;
+    top: 330px;
+}
+.nav__education_line{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    background-color: black;
+    height: 4px;
+    width: 620px;
+    z-index: 10;
+}
+.nav__Education_text2{
+    font-family: Roboto;
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
+    top: 430px;
+}
+.nav__education_name_courses{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    left: 100px;
+    top: 465px;
+}
+.nav__Education_icon_month{
+    position: absolute;
+    top:495px;
+    left: 100px;
+}
+.nav__education_name_courses_data{
+    font-family: Roboto;
+    position: absolute;
+    left: 127px;
+    top: 492px;
+}
+.nav__about_location_courses{
+    position: absolute;
+    top: 495px;
+    left: 240px;
+}
+.nav__about_location_courses_name{
+    position: absolute;
+    top: 495px;
+    left: 260px;
+}
+.nav__Achievement_text1{
+    font-family: Roboto;
+    position: absolute;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    left: 100px;
+    top: 575px;
+}
+.nav__Achievement_line{
+    position: absolute;
+    left: 100px;
+    top: 650px;
+    background-color: black;
+    height: 4px;
+    width: 620px;
+    z-index: 10;
+}
+.nav__Achievement_icon_folder{
+    position: absolute;
+    left: 100px;
+    top: 680px;
+    width: 30px;
+    height: 30px;
+}
+.nav__Achievement_Course_diagram{
+    font-family: Roboto;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    left: 140px;
+    top: 678px;
+}
+.nav__Achievement_Concept1{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 710px;
+}
+.nav__Achievement_Concept2{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 730px;
+}
+.nav__Achievement_Concept3{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 750px;
+}
+.nav__Achievement_Concept4{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 770px
+}
+.nav__Achievement_Concept5{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 790px
+}
+.nav__Achievement_Concept6{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 810px
+}
+.nav__Achievement_Concept7{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 830px
+}
+.nav__project_text_project{
+    font-family: Roboto;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    left: 140px;
+    top: 900px;
+}
+.nav__project_project_icon_true{
+    position: absolute;
+    left: 100px;
+    top: 900px;
+    width: 30px;
+    height: 30px;
+}
+.nav__project_text_project_elements1{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 932px;
+}
+.nav__project_text_project_elements2{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 952px;
+}
+.nav__project_text_project_elements3{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 972px;
+}
+.nav__project_text_project_elements4{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 992px;
+}
+.nav__project_text_project_elements5{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 1012px;
+}
+.nav__project_text_project_elements6{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 1032px;
+}
+.nav__project_text_project_elements7{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 1052px;
+}
+.nav__project_text_project_elements8{
+    font-family: Roboto;
+    position: absolute;
+    left: 140px;
+    top: 1072px;
+}
+.nav__Skills_text_skills{
+    font-family: Roboto;
+    position: absolute;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    left: 100px;
+    top: 1172px;
+}
+.nav__Skills_line{
+    position: absolute;
+    left: 100px;
+    top: 1242px;
+    background-color: black;
+    height: 4px;
+    width: 620px;
+    z-index: 10
+}
+.nav__skills_elements_text1{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 100px;
+    top: 1282px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 320px;
+    top: 1282px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text3{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 520px;
+    top: 1282px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text4{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 100px;
+    top: 1320px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text5{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 320px;
+    top: 1320px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text6{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 520px;
+    top: 1320px;
+    border: 1.5px solid gray;
+}
+.nav__skills_elements_text7{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 100px;
+    top: 1358px;
+    border: 1.5px solid gray;
+}
+
+.nav__Languages_text_languages {
+    position: absolute;
+    font-family: Roboto;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    right: 360px;
+    top: 330px;
+}
+.nav__Languages_line{
+    position: absolute;
+    right: 40px;
+    top: 400px;
+    background-color: black;
+    height: 4px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Languages_text_languages_ukr{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 455px;
+    top: 430px;
+}
+.nav__Languages_text_languages_ukr_native{
+    font-family: Roboto;
+    top: 492px;
+    position: absolute;
+    left: 910px;
+    top: 465px;
+}
+.circle1{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 180px;
+    top: 455px
+}
+.circle2{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 150px;
+    top: 455px
+}
+.circle3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 120px;
+    top: 455px
+}
+.circle4{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 90px;
+    top: 455px
+}
+.circle5{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right:60px;
+    top: 455px
+}
+.nav__Languages_text_languages_russia{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 465px;
+    top: 540px
+}
+.nav__Languages_text_languages_ukr_Free{
+    font-family: Roboto;
+    top: 492px;
+    position: absolute;
+    left: 910px;
+    top: 575px;
+}
+.circle1_2{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 180px;
+    top: 555px;
+}
+.circle2_2{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 150px;
+    top: 555px;
+}
+.circle3_2{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 120px;
+    top: 555px;
+}
+.circle4_2{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 90px;
+    top: 555px;
+}
+.circle5_2 {
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 60px;
+    top: 555px;
+}
+.nav__Languages_text_languages_english{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 453px;
+    top: 650px
+}
+.nav__Languages_text_languages_ukr_level{
+    font-family: Roboto;
+    top: 492px;
+    position: absolute;
+    left: 916px;
+    top: 685px
+}
+.circle1_3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 180px;
+    top: 670px;
+}
+.circle2_3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 150px;
+    top: 670px;
+}
+.circle3_3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    right: 120px;
+    top: 670px;
+}
+.circle4_3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: black;
+    position: absolute;
+    right: 90px;
+    top: 670px;
+}
+.circle5_3{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: black;
+    position: absolute;
+    right: 60px;
+    top: 670px;
+}
+.nav__Personal_qualities_text{
+    position: absolute;
+    font-family: Roboto;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 52px;
+    right: 152px;
+    top: 800px
+}
+.nav__Personal_qualities_line{
+    position: absolute;
+    right: 40px;
+    top: 870px;
+    background-color: black;
+    height: 4px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Personal_qualities_text_1{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    right: 472px;
+    top: 920px
+}
+.nav__Personal_qualities_text_1_line{
+    position: absolute;
+    right: 40px;
+    top: 960px;
+    background-color: black;
+    height: 8px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Personal_qualities_text_1_circle{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    top: 953px;
+    right: 38px;
+    z-index: 9;
+}
+.nav__Personal_qualities_text_2{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    right: 385px;
+    top: 1040px
+}
+.nav__Personal_qualities_text_2_line{
+    position: absolute;
+    right: 40px;
+    top: 1075px;
+    background-color: black;
+    height: 8px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Personal_qualities_text_2_circle{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    top: 1068px;
+    right: 38px;
+    z-index: 9;
+}
+.nav__Personal_qualities_text_3{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    right: 418px;
+    top: 1170px
+}
+.nav__Personal_qualities_text_3_line{
+    position: absolute;
+    right: 40px;
+    top: 1205px;
+    background-color: black;
+    height: 8px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Personal_qualities_text_3_circle{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    top: 1198px;
+    right: 38px;
+    z-index: 9;
+}
+.nav__Personal_qualities_text_4{
+    color: #008cff;
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    right: 475px;
+    top: 1320px;
+}
+.nav__Personal_qualities_text_4_line{
+    position: absolute;
+    right: 40px;
+    top: 1360px;
+    background-color: black;
+    height: 8px;
+    width: 580px;
+    z-index: 10;
+}
+.nav__Personal_qualities_text_4_circle{
+    width: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 100%;
+    background: #7ec4fd;
+    position: absolute;
+    top: 1352px;
+    right: 38px;
+    z-index: 9;
+}
